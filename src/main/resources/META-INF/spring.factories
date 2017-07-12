@@ -1,0 +1,5 @@
+
+
+org.springframework.boot.env.EnvironmentPostProcessor=com.nice.epp.DefaultProfileResolverEnvironmentPostProcessor
+org.springframework.context.ApplicationContextInitializer = com.nice.app_init.ProfileSentinelApplicationInitializer
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.nice.conf.Config
